@@ -3,6 +3,15 @@
 ```
 pip install twitter
 ```
+
++ `auth.py`に取得したKEYを記述
+
+```python
+CONSUMER_KEY = "xxxxxxxxxx"
+CONSUMER_SECRET_KEY = "xxxxxxxxxx"
+ACCESS_TOKEN = "xxxxxxxxxx"
+ACCESS_TOKEN_SECRET = "xxxxxxxxxx"
+```
 ***
 ## 実行方法
 + `main.py`を実行してください。
