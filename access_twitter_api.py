@@ -15,20 +15,6 @@ from kvs import *
 # exception
 from exception import *
 
-# show Tileline Stream API
-def stream_tweet():
-    try:
-        # Stream API
-        stream = StreamGet().stream_instance
-        tweets =  stream.user()
-        
-        # printTweet
-        print("##### Start Stram Timeline #####")
-        print("##### End is Type [Ctrl+C] #####")
-        print_tweet(tweets)
-    except Exception as e:
-        raise OtherError
-
 # show Timeline REST API
 # [OPTION] [COUNT(DEFAULT 10)]
 def show_timeline(args):

@@ -25,14 +25,3 @@ class TwitterGet(Auth):
     @property
     def twitter_instance(self):
         return self.__twitter_instance
-
-class StreamGet(Auth):
-    def __init__(self):
-        super().__init__()
-        self.__stream_instance = TwitterStream(auth=self.auth,domain="userstream.twitter.com")
-
-    @property
-    def stream_instance(self):
-        return self.__stream_instance
-
-
