@@ -27,7 +27,6 @@ HELLO_MESSAGE = """\
 HELP_MESSAGE = """\
 [h] / [home]       = show timeline.(non stream)
                      [OPTION] [COUNT(DEFAULT 10)]
-[stream]           = steram timeline.
 [p] / [post]       = post tweet.
                      [OPTIONS] [*POSTTEXT] [REPLYID]
 [r] / [retweet]    = retweet.
@@ -47,7 +46,6 @@ HELP_MESSAGE = """\
 
 COMMAND_LIST = [
   "h", "home",
-  "stream",
   "p", "post",
   "r", "retweet",
   "s", "search",

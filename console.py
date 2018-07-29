@@ -44,21 +44,19 @@ class TwitterConsole(code.InteractiveConsole):
 
             if command == "h" or command == "home":
                 show_timeline(args)
-            if command == "stream":
-                stream_tweet()
-            if command == "p" or command == "post":
+            elif command == "p" or command == "post":
                 post_tweet(args)
-            if command == "r" or command == "retweet":
+            elif command == "r" or command == "retweet":
                 retweet(args)
-            if command == "s" or command == "search":
+            elif command == "s" or command == "search":
                 search_tweets(args)
-            if command == "m" or command == "mydata":
+            elif command == "m" or command == "mydata":
                 show_mydata()
-            if command == "q" or command == "e" or command == "exit":
+            elif command == "q" or command == "e" or command == "exit":
                 sys.exit(0)
-            if command == "help":
+            elif command == "help":
                 print(HELP_MESSAGE)
-            if command == "c" or command == "clear":
+            elif command == "c" or command == "clear":
                 os.system("clear")
 
         except CommandError as e:

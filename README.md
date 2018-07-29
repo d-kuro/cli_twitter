@@ -20,7 +20,6 @@ ACCESS_TOKEN_SECRET = "xxxxxxxxxx"
 ```
 [h] / [home]       = show timeline.(non stream)
                      [OPTION] [COUNT(DEFAULT 10)]
-[stream]           = steram timeline.
 [p] / [post]       = post tweet.
                      [OPTIONS] [*POSTTEXT] [REPLYID]
 [r] / [retweet]    = retweet.
@@ -45,13 +44,6 @@ ACCESS_TOKEN_SECRET = "xxxxxxxxxx"
 
 ```
 $ home 100
-```
-
-+ `[stream]`
-    + タイムラインをストリームします
-
-```
-$ stream
 ```
 
 + `[p] / [post]`
